@@ -1,0 +1,11 @@
+/* all formats */
+
+.cvdate {
+  float: right;
+  font-style: italic
+}
+
+.cvtitle {
+  font-size: 120%;
+  font-weight: bold;
+}

@@ -1,0 +1,28 @@
+---
+title: "Teemu Säilynoja"
+toc: false
+page-layout: full
+about:
+  template: trestles
+  image: assets/teemu-nord.png
+  image-width: 20em
+  image-shape: round
+  links: 
+    - icon: linkedin
+      #text: LinkedIn
+      href: https://www.linkedin.com/in/teemu-sailynoja/
+    - icon: github
+      #text: Github
+      href: https://github.com/TeemuSailynoja
+    - icon: envelope-at
+      #text: Email
+      href: mailto:teemu.sailynoja@gmail.com
+---
+
+## Hi, I'm Teemu!
+I'm a data enthusiast interested in probabilistic modelling, uncertainty aware machine learning and AI, and data visualisation. 
+
+I'm currently finishing up my doctorate at the [Probabilistic Machine Learning Group](https://research.cs.aalto.fi/pml/) of Aalto University. My research interests lie in the workflow of Bayesian modelling, and I have focused in calibration assessments and visual predictive checking.
+
+
+Offline, I'm a passionate ultimate frisbee player and enjoy spending time in nature -- I love sailing, cycling, hiking, and fly fishing.

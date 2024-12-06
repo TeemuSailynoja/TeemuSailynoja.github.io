@@ -1,0 +1,171 @@
+---
+title: "Teemu Säilynoja"
+format:
+  html:
+    toc: true
+    toc-title: "Table of contents"
+    fontsize: "14"
+    anchor-sections: false
+  # pdf: 
+  #   fontsize: "14"
+  #   pdf-engine: weasyprint
+  #   linkcolor: "#bf616a"
+    
+css: cv.css
+
+  # - href: cv.pdf
+  #   text: PDF - English
+  #   icon: file-earmark-pdf
+  # - href: cv.fi.pdf
+  #   text: PDF - Suomeksi
+  #   icon: file-earmark-pdf
+
+---
+<!-- :::{.grid}
+::: {.column-sidebar}
+## Skills
+
+## Languages
+::: -->
+
+## Experience
+| [Doctoral researcher]{.cvtitle}[2019-2024]{.cvdate}
+| *Aalto University, Department of Computer Science, Probabilistic Machine Learning Group*
+| Developing principled methods to aid in the Bayesian workflow of **probabilistic modelling**.
+- Methods for **calibration assessment** of the model predictions, and the inference algorithms.
+- Recommendations and tools for visual prior and posterior predictive checking.
+- Contributions to *open source* R packages for probabilistic programming and modelling.
+  <!-- - [Bayesplot](http://mc-stan.org/bayesplot/)
+  - [SBC](https://hyunjimoon.github.io/SBC/articles/index.html) -->
+
+<!-- Supervisor: [Prof. Aki Vehtari](https://users.aalto.fi/~ave/) -->
+
+| [Data scientist]{.cvtitle}[2018-2019]{.cvdate}
+| *Thirdpresence Oy*
+
+| **Machine learning engineering** and **data analysis** on a platform with over 5 billion daily transactions.
+- Developing machine learning models with Python. <!-- (*skicit-learn*) -->
+- Serving a scalable prediction API of these models on AWS. <!-- (*Flask, AWS lambda*) -->
+- Actionable trading data analysis to support the Ad Operations team. <!-- (*Numpy, Pandas, Matplotlib, Seaborn*) -->
+
+## Education
+| [Master of Science - Mathematical analysis]{.cvtitle}[2016 - 2017]{.cvdate}
+| *University of Helsinki, Department of Mathematics and Statistics*
+| Master’s Thesis: [*Hamilton-Jacobi Equations and Scalar Conservation Laws*](http://hdl.handle.net/10138/229134)
+Grade: *Eximia Cum Laude Approbatur*
+<!-- I introduce Hamilton-Jacobi equations and scalar conservation laws, partial
+differential equations involved in the modelling of fluid dynamics and
+acoustics, etc. Using the method of characteristics I show conditions for the
+existence and uniqueness of weak solutions to initial value problems these
+equations.
+| Supervisor: [Prof. Xiao Zhong](https://researchportal.helsinki.fi/en/persons/xiao-zhong) -->
+
+| [Bachelor of Science - Mathematics]{.cvtitle}[2011-2016]{.cvdate}
+| *University of Helsinki, Department of Mathematics and Statistics*
+| Bachelor’s Thesis: *Method of Two-Block Partial Least-Squares in Morphology*
+Grade: *5/5*
+<!-- I use partial least squares regression to find the main axes of
+correlation between variables of a dataset. I further simulate datasets of shape
+measurements, and use this data to demonstrate how this method can be used
+to study correlation in shape variation between parts of the shapes.
+| Supervisor: [Prof. Samuli Siltanen](https://siltanen-research.net/) -->
+
+## Skills
+| [Strenghts]{.cvtitle}
+Problem solving, analytical thinking, scientific writing, communication of complex topics.
+
+| [Programming]{.cvtitle}
+R, Python, Stan, Rust, (*SQL, Java, C++, Matlab*)
+
+| [Data Science]{.cvtitle}
+R (*brms, tidyverse*), Python (*PyTorch, Scikit-learn, Numpy, Pandas*), Stan 
+
+| [Data Visualisation]{.cvtitle}
+R (*Ggplot2, Shiny, Bayesplot*), Python (*Matplotlib, Seaborn, Shiny*)
+<!-- | [Tools: ]{.cvtitle} Git, VS Code, Rstudio, Terminal, Linux, Windows -->
+
+| [Languages]{.cvtitle}
+Finnish (*native*), English (*fluent, bilingual*), Swedish (*basic conversation skills*)
+
+
+## Professional development
+| [Nordic Probabilistic AI School 2023]{.cvtitle}[2023]{.cvdate}
+| *Norwegian University of Science and Technology, Trondheim*
+
+A hands-on intensive course on state-of-the-art machine learning and artificial intelligence techniques.
+The course included hands-on tutorials and a course project of implementing a diffusion 
+probabilistic model, a **generative AI** model combining neural networks and probabilistic modelling.
+
+
+## Teaching
+
+| [Stancon 2024 - Model selection tutorial]{.cvtitle}[2024]{.cvdate}
+| *Oxford University, United Kingdom*
+
+| Model selection, **model validation**, hypothesis testing, and model comparison in probabilistic modelling.
+- Together with my colleagues, we organised a tutorial on the above topics.
+- The participants brought their own datasets and we guided them in implementing the methods.
+
+| [Stan Connect 2021 - SBC talk & tutorial]{.cvtitle}[2021]{.cvdate}
+| *Online*
+
+- I gave a talk introducing research, and how it can be applied in simulation-based **calibration checking** (SBC).
+- I was also part of the three-person team which organised and led a tutorial on implementing SBC as
+  part of the probabilistic machine learning workflow.
+
+| [Bayesian Data Analysis - Teaching Assistant]{.cvtitle}[2019-2024]{.cvdate}
+| *Aalto University, Department of Computer Science*
+| An annual course of 300 students, providing an in-depth overview of Bayesian **data analysis and probabilistic modelling**.
+- Teaching bayesian statistics, prior selection, posterior predictive checking, model comparison, model validation, convergence diagnostics, etc.
+- Grading the course projects and presentations of the students.
+
+
+| [Course Assistant]{.cvtitle}[2012-2017]{.cvdate}
+| *University of Helsinki, Department of Mathematics and Statistics*
+
+| Several undergraduate level courses including courses on calculus, ordinary **differential equations**, basics of propositional and predicate logic, and model theory.
+- Holding weekly exercise sessions.
+- Writing the solution examples for the exercises.
+- Grading course exams, and assisting in designing questions for the exercises and some of the exams.
+- Most courses employed the method of *extreme apprenticeship*, focusing teaching on the problem solving phase of the exercises.
+
+
+| [Teacher & Teacher Assistant]{.cvtitle}[2012-2013, 2015]{.cvdate}
+| *University of Helsinki, Department of Mathematics and Statistics*
+
+| I was the head teacher, and prior to that the assistant teacher, on a course revising topics of the Finnish High School Mathematics Curriculum.
+- Planning and giving weekly on demand lectures and personal counselling.
+
+| Additionally, I worked as an Assistant Teacher on the course titled Introduction to Teaching Mathematics
+- Preparing and giving some of the lectures and providing the study counselling for the students.
+
+## Publications
+
+
+| **Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation**[March 24, 2022]{.cvdate}
+| **and multiple sample comparison**
+| *Statistics and Computing 32, no. 2*
+| **Teemu Säilynoja**, Paul-Christian Bürkner, and Aki Vehtari
+| DOI: [https://doi.org/10.1007/s11222-022-10090-6](https://doi.org/10.1007/s11222-022-10090-6)
+
+<!-- We convert the question of whether a given sample originates from a reference
+distribution into a problem of testing for uniformity of probability integral
+transformed (PIT) sample values. We present new simulation- and optimization-
+based methods to obtain simultaneous confidence bands for the empirical
+cumulative distribution function (ECDF) of the PIT values under the assumption
+of uniformity. The methods are also applicable in the case, common in practical
+applications, of the reference distribution being represented only by a finite
+sample. The confidence bands provide an intuitive graphical test for goodness-
+of-fit and provide information on the quality of the discrepancy.
+We further extend the methods for testing whether multiple samples
+come from the same underlying distribution. This is useful, for example,
+as a complementary diagnostic in multi-chain Markov chain Monte Carlo
+convergence diagnostics, where most currently used convergence diagnostics
+provide a single numerical diagnostic value, but do not usually offer insight
+into the nature of the deviation. -->
+
+
+::: {.print-only}
+## References
+Available upon [request](mailto).
+:::
