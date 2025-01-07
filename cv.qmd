@@ -71,7 +71,7 @@ to study correlation in shape variation between parts of the shapes.
 | Supervisor: [Prof. Samuli Siltanen](https://siltanen-research.net/) -->
 
 ## Skills
-| [Strenghts]{.cvtitle}
+| [Strengths]{.cvtitle}
 Problem solving, analytical thinking, scientific writing, communication of complex topics.
 
 | [Programming]{.cvtitle}
