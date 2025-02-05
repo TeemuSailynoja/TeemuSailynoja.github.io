@@ -56,6 +56,20 @@
     "text": "References\nAvailable upon request."
   },
   {
+    "objectID": "Publications/publications.html",
+    "href": "Publications/publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Paper (Statistics and Computing) | Code\nAssessing the goodness-of-fit to a given distribution is important in computational statistics. Using the probability integral transformation (PIT), we answer this question through uniformity testing.\n\nWe present new simulation- and optimization-based methods for obtaining simultaneous confidence bands for the whole empirical cumulative distribution function (ECDF) of the PIT values under the assumption of uniformity.\nWe further extend the methods to determine simultaneous confidence bands for testing whether multiple samples come from the same underlying distribution.\n\nThese methods can also be applied when the reference distribution is represented by a finite sample, which is useful, for example, for simulation-based calibration (SBC). The multiple sample comparison test is useful, for example, as a complementary diagnostic in multi-chain Markov chain Monte Carlo convergence diagnostics."
+  },
+  {
+    "objectID": "Publications/publications.html#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison",
+    "href": "Publications/publications.html#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison",
+    "title": "Publications",
+    "section": "",
+    "text": "Paper (Statistics and Computing) | Code\nAssessing the goodness-of-fit to a given distribution is important in computational statistics. Using the probability integral transformation (PIT), we answer this question through uniformity testing.\n\nWe present new simulation- and optimization-based methods for obtaining simultaneous confidence bands for the whole empirical cumulative distribution function (ECDF) of the PIT values under the assumption of uniformity.\nWe further extend the methods to determine simultaneous confidence bands for testing whether multiple samples come from the same underlying distribution.\n\nThese methods can also be applied when the reference distribution is represented by a finite sample, which is useful, for example, for simulation-based calibration (SBC). The multiple sample comparison test is useful, for example, as a complementary diagnostic in multi-chain Markov chain Monte Carlo convergence diagnostics."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Teemu Säilynoja",

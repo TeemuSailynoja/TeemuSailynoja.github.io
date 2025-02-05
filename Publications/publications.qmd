@@ -1,0 +1,23 @@
+---
+title: Publications
+format:
+  html:
+    toc: false
+---
+
+## Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison
+
+![](../assets/ecdf-paper.png)
+
+<a href="https://link.springer.com/article/10.1007/s11222-022-10090-6" target="_blank">Paper (Statistics and Computing)</a> | <a href="https://github.com/TeemuSailynoja/simultaneous-confidence-bands" target="_blank">Code</a><br>
+
+Assessing the goodness-of-fit to a given distribution is important in computational statistics.
+Using the probability integral transformation (PIT), we answer this question through uniformity testing.
+  
+  - We present new simulation- and optimization-based methods for obtaining simultaneous confidence bands for the whole empirical cumulative distribution function (ECDF) of the PIT values under the assumption of uniformity. 
+  - We further extend the methods to determine simultaneous confidence bands for testing whether multiple samples come from the same underlying distribution. 
+
+These methods can also be applied when the reference distribution is represented by a finite sample, which is useful, for example, for simulation-based calibration (SBC).
+The multiple sample comparison test is useful, for example, as a complementary diagnostic in multi-chain Markov chain Monte Carlo convergence diagnostics.
+
+----

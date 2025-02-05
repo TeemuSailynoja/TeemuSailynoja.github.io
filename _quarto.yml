@@ -6,9 +6,8 @@ website:
   title: "Teemu Säilynoja"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      #- about.qmd
+      - href: Publications/publications.qmd
+        text: Publications
       - href: cv.qmd
         text: CV
     right:
