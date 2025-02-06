@@ -20,9 +20,9 @@ about:
 ---
 
 ## Hi, I'm Teemu!
-I'm a data enthusiast interested in probabilistic modelling, uncertainty aware machine learning and AI, and data visualisation. 
+I'm a data enthusiast interested in probabilistic modelling, uncertainty aware machine learning and AI, and data visualization. 
 
-I'm currently finishing up my doctorate at the [Probabilistic Machine Learning Group](https://research.cs.aalto.fi/pml/) of Aalto University. My research interests lie in the workflow of Bayesian modelling, and I have focused in calibration assessments and visual predictive checking.
+Currently, I'm finishing up my doctorate at the [Probabilistic Machine Learning Group](https://research.cs.aalto.fi/pml/) of Aalto University. My research interests lie in the workflow of Bayesian modelling, and I have focused in calibration assessments and visual predictive checking.
 
 
 Offline, I'm a passionate ultimate frisbee player and enjoy spending time in nature -- I love sailing, cycling, hiking, and fly fishing.

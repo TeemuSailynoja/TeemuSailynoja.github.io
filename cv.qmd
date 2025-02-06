@@ -4,7 +4,6 @@ format:
   html:
     toc: true
     toc-title: "Table of contents"
-    fontsize: "14"
     anchor-sections: false
   # pdf: 
   #   fontsize: "14"
@@ -47,6 +46,19 @@ css: cv.css
 - Developing machine learning models with Python. <!-- (*skicit-learn*) -->
 - Serving a scalable prediction API of these models on AWS. <!-- (*Flask, AWS lambda*) -->
 - Actionable trading data analysis to support the Ad Operations team. <!-- (*Numpy, Pandas, Matplotlib, Seaborn*) -->
+
+## Publications
+
+| **Posterior SBC: simulation-based calibration checking conditional on data**[February 5th, 2025]{.cvdate}
+| *Preprint*
+| **Teemu Säilynoja**, Marvin Schmitt, Paul Bürkner, and Aki Vehtari
+| arXiv: [2502.03279](https://arxiv.org/abs/2502.03279)
+|
+| **Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation**[March 24th, 2022]{.cvdate}
+| **and multiple sample comparison**
+| *Statistics and Computing 32, no. 2*
+| **Teemu Säilynoja**, Paul-Christian Bürkner, and Aki Vehtari
+| DOI: [https://doi.org/10.1007/s11222-022-10090-6](https://doi.org/10.1007/s11222-022-10090-6)
 
 ## Education
 | [Master of Science - Mathematical analysis]{.cvtitle}[2016 - 2017]{.cvdate}
@@ -139,14 +151,6 @@ probabilistic model, a **generative AI** model combining neural networks and pro
 | Additionally, I worked as an Assistant Teacher on the course titled Introduction to Teaching Mathematics
 - Preparing and giving some of the lectures and providing the study counselling for the students.
 
-## Publications
-
-
-| **Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation**[March 24, 2022]{.cvdate}
-| **and multiple sample comparison**
-| *Statistics and Computing 32, no. 2*
-| **Teemu Säilynoja**, Paul-Christian Bürkner, and Aki Vehtari
-| DOI: [https://doi.org/10.1007/s11222-022-10090-6](https://doi.org/10.1007/s11222-022-10090-6)
 
 <!-- We convert the question of whether a given sample originates from a reference
 distribution into a problem of testing for uniformity of probability integral

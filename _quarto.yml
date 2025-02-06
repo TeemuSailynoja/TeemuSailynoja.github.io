@@ -26,13 +26,14 @@ format:
     theme:
       dark:
         - darkly
+        - theme.scss
         - theme-dark.scss
       light: 
         - flatly
+        - theme.scss
         - theme-light.scss
     css: styles.css
     toc: true
-    fontsize: "16pt"
     max-width: "74ch"
     linkcolor: "#bf616a"
 

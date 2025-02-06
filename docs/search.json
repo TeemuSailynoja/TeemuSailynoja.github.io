@@ -14,6 +14,13 @@
     "text": "Doctoral researcher2019-2024\nAalto University, Department of Computer Science, Probabilistic Machine Learning Group\nDeveloping principled methods to aid in the Bayesian workflow of probabilistic modelling.\n\nMethods for calibration assessment of the model predictions, and the inference algorithms.\nRecommendations and tools for visual prior and posterior predictive checking.\nContributions to open source R packages for probabilistic programming and modelling. \n\n\nData scientist2018-2019\nThirdpresence Oy\nMachine learning engineering and data analysis on a platform with over 5 billion daily transactions.\n\nDeveloping machine learning models with Python. \nServing a scalable prediction API of these models on AWS. \nActionable trading data analysis to support the Ad Operations team."
   },
   {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Teemu Säilynoja",
+    "section": "Publications",
+    "text": "Publications\nPosterior SBC: simulation-based calibration checking conditional on dataFebruary 5th, 2025\nPreprint\nTeemu Säilynoja, Marvin Schmitt, Paul Bürkner, and Aki Vehtari\narXiv: 2502.03279\n\nGraphical test for discrete uniformity and its applications in goodness-of-fit evaluationMarch 24th, 2022\nand multiple sample comparison\nStatistics and Computing 32, no. 2\nTeemu Säilynoja, Paul-Christian Bürkner, and Aki Vehtari\nDOI: https://doi.org/10.1007/s11222-022-10090-6"
+  },
+  {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "Teemu Säilynoja",
@@ -42,13 +49,6 @@
     "text": "Teaching\nStancon 2024 - Model selection tutorial2024\nOxford University, United Kingdom\nModel selection, model validation, hypothesis testing, and model comparison in probabilistic modelling.\n\nTogether with my colleagues, we organised a tutorial on the above topics.\nThe participants brought their own datasets and we guided them in implementing the methods.\n\nStan Connect 2021 - SBC talk & tutorial2021\nOnline\n\nI gave a talk introducing research, and how it can be applied in simulation-based calibration checking (SBC).\nI was also part of the three-person team which organised and led a tutorial on implementing SBC as part of the probabilistic machine learning workflow.\n\nBayesian Data Analysis - Teaching Assistant2019-2024\nAalto University, Department of Computer Science\nAn annual course of 300 students, providing an in-depth overview of Bayesian data analysis and probabilistic modelling.\n\nTeaching bayesian statistics, prior selection, posterior predictive checking, model comparison, model validation, convergence diagnostics, etc.\nGrading the course projects and presentations of the students.\n\nCourse Assistant2012-2017\nUniversity of Helsinki, Department of Mathematics and Statistics\nSeveral undergraduate level courses including courses on calculus, ordinary differential equations, basics of propositional and predicate logic, and model theory.\n\nHolding weekly exercise sessions.\nWriting the solution examples for the exercises.\nGrading course exams, and assisting in designing questions for the exercises and some of the exams.\nMost courses employed the method of extreme apprenticeship, focusing teaching on the problem solving phase of the exercises.\n\nTeacher & Teacher Assistant2012-2013, 2015\nUniversity of Helsinki, Department of Mathematics and Statistics\nI was the head teacher, and prior to that the assistant teacher, on a course revising topics of the Finnish High School Mathematics Curriculum.\n\nPlanning and giving weekly on demand lectures and personal counselling.\n\nAdditionally, I worked as an Assistant Teacher on the course titled Introduction to Teaching Mathematics\n\nPreparing and giving some of the lectures and providing the study counselling for the students."
   },
   {
-    "objectID": "cv.html#publications",
-    "href": "cv.html#publications",
-    "title": "Teemu Säilynoja",
-    "section": "Publications",
-    "text": "Publications\nGraphical test for discrete uniformity and its applications in goodness-of-fit evaluationMarch 24, 2022\nand multiple sample comparison\nStatistics and Computing 32, no. 2\nTeemu Säilynoja, Paul-Christian Bürkner, and Aki Vehtari\nDOI: https://doi.org/10.1007/s11222-022-10090-6"
-  },
-  {
     "objectID": "cv.html#references",
     "href": "cv.html#references",
     "title": "Teemu Säilynoja",
@@ -56,31 +56,31 @@
     "text": "References\nAvailable upon request."
   },
   {
-    "objectID": "Publications/publications.html",
-    "href": "Publications/publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Paper (Statistics and Computing) | Code\nAssessing the goodness-of-fit to a given distribution is important in computational statistics. Using the probability integral transformation (PIT), we answer this question through uniformity testing.\n\nWe present new simulation- and optimization-based methods for obtaining simultaneous confidence bands for the whole empirical cumulative distribution function (ECDF) of the PIT values under the assumption of uniformity.\nWe further extend the methods to determine simultaneous confidence bands for testing whether multiple samples come from the same underlying distribution.\n\nThese methods can also be applied when the reference distribution is represented by a finite sample, which is useful, for example, for simulation-based calibration (SBC). The multiple sample comparison test is useful, for example, as a complementary diagnostic in multi-chain Markov chain Monte Carlo convergence diagnostics."
-  },
-  {
     "objectID": "Publications/publications.html#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison",
     "href": "Publications/publications.html#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison",
-    "title": "Publications",
-    "section": "",
-    "text": "Paper (Statistics and Computing) | Code\nAssessing the goodness-of-fit to a given distribution is important in computational statistics. Using the probability integral transformation (PIT), we answer this question through uniformity testing.\n\nWe present new simulation- and optimization-based methods for obtaining simultaneous confidence bands for the whole empirical cumulative distribution function (ECDF) of the PIT values under the assumption of uniformity.\nWe further extend the methods to determine simultaneous confidence bands for testing whether multiple samples come from the same underlying distribution.\n\nThese methods can also be applied when the reference distribution is represented by a finite sample, which is useful, for example, for simulation-based calibration (SBC). The multiple sample comparison test is useful, for example, as a complementary diagnostic in multi-chain Markov chain Monte Carlo convergence diagnostics."
+    "title": "Teemu Säilynoja",
+    "section": "Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison",
+    "text": "Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison\n\n\n\n\n\nPaper (Statistics and Computing) | Code\n\nAssessing the goodness-of-fit to a given distribution is important in computational statistics. Using the probability integral transformation (PIT), we answer this question through uniformity testing.\n\nWe present new simulation- and optimization-based methods for obtaining simultaneous confidence bands for the whole empirical cumulative distribution function (ECDF) of the PIT values under the assumption of uniformity.\nWe further extend the methods to determine simultaneous confidence bands for testing whether multiple samples come from the same underlying distribution.\n\nThese methods can also be applied when the reference distribution is represented by a finite sample, which is useful, for example, for simulation-based calibration (SBC). The multiple sample comparison test is useful, for example, as a complementary diagnostic in multi-chain Markov chain Monte Carlo convergence diagnostics."
+  },
+  {
+    "objectID": "Publications/publications.html#posterior-sbc-simulation-based-calibration-checking-conditional-on-data",
+    "href": "Publications/publications.html#posterior-sbc-simulation-based-calibration-checking-conditional-on-data",
+    "title": "Teemu Säilynoja",
+    "section": "Posterior SBC: simulation-based calibration checking conditional on data",
+    "text": "Posterior SBC: simulation-based calibration checking conditional on data\n\n\n\n\n\nPreprint (arXiv) | Code\n\nSimulation-based calibration checking (SBC) is the process of testing whether an inference algorithm and model implementation works for data generated with parameter values plausible under the chosen priors. This approach is natural and desirable for testing if the inference works for a wide range of plausible datasets.\n\\(\\quad\\) However, after observing data, we are interested in knowing if the inference works for that particular dataset. In this paper, we propose posterior SBC a version of SBC that can used to validate the inference conditionally on observed data.\n\\(\\quad\\) We illustrate the utility of posterior SBC in three case studies: (1) A simple multilevel model; (2) a model that is governed by differential equations; and (3) a joint integrative neuroscience model which is approximated via amortized Bayesian inference with neural networks."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Teemu Säilynoja",
     "section": "",
-    "text": "I’m a data enthusiast interested in probabilistic modelling, uncertainty aware machine learning and AI, and data visualisation.\nI’m currently finishing up my doctorate at the Probabilistic Machine Learning Group of Aalto University. My research interests lie in the workflow of Bayesian modelling, and I have focused in calibration assessments and visual predictive checking.\nOffline, I’m a passionate ultimate frisbee player and enjoy spending time in nature – I love sailing, cycling, hiking, and fly fishing."
+    "text": "I’m a data enthusiast interested in probabilistic modelling, uncertainty aware machine learning and AI, and data visualization.\nCurrently, I’m finishing up my doctorate at the Probabilistic Machine Learning Group of Aalto University. My research interests lie in the workflow of Bayesian modelling, and I have focused in calibration assessments and visual predictive checking.\nOffline, I’m a passionate ultimate frisbee player and enjoy spending time in nature – I love sailing, cycling, hiking, and fly fishing."
   },
   {
     "objectID": "index.html#hi-im-teemu",
     "href": "index.html#hi-im-teemu",
     "title": "Teemu Säilynoja",
     "section": "",
-    "text": "I’m a data enthusiast interested in probabilistic modelling, uncertainty aware machine learning and AI, and data visualisation.\nI’m currently finishing up my doctorate at the Probabilistic Machine Learning Group of Aalto University. My research interests lie in the workflow of Bayesian modelling, and I have focused in calibration assessments and visual predictive checking.\nOffline, I’m a passionate ultimate frisbee player and enjoy spending time in nature – I love sailing, cycling, hiking, and fly fishing."
+    "text": "I’m a data enthusiast interested in probabilistic modelling, uncertainty aware machine learning and AI, and data visualization.\nCurrently, I’m finishing up my doctorate at the Probabilistic Machine Learning Group of Aalto University. My research interests lie in the workflow of Bayesian modelling, and I have focused in calibration assessments and visual predictive checking.\nOffline, I’m a passionate ultimate frisbee player and enjoy spending time in nature – I love sailing, cycling, hiking, and fly fishing."
   }
 ]
