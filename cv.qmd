@@ -52,13 +52,13 @@ css: cv.css
 | **Posterior SBC: simulation-based calibration checking conditional on data**[February 5th, 2025]{.cvdate}
 | *Preprint*
 | **Teemu Säilynoja**, Marvin Schmitt, Paul Bürkner, and Aki Vehtari
-| arXiv: [2502.03279](https://arxiv.org/abs/2502.03279)
+| [arXiv:2502.03279](https://arxiv.org/abs/2502.03279)
 |
 | **Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation**[March 24th, 2022]{.cvdate}
 | **and multiple sample comparison**
 | *Statistics and Computing 32, no. 2*
 | **Teemu Säilynoja**, Paul-Christian Bürkner, and Aki Vehtari
-| DOI: [https://doi.org/10.1007/s11222-022-10090-6](https://doi.org/10.1007/s11222-022-10090-6)
+| [doi:10.1007/s11222-022-10090-6](https://doi.org/10.1007/s11222-022-10090-6)
 
 ## Education
 | [Master of Science - Mathematical analysis]{.cvtitle}[2016 - 2017]{.cvdate}
