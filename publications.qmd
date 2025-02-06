@@ -13,7 +13,7 @@ engine: knitr
 
 ## Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison
 
-![](../assets/ecdf-paper.png){width=90% fig-align="center" fig-alt="Grid of six images. The first four show histograms of fractional ranks with per bin independent confidence bands for uniformity, and the two last show the empirical cumulative distribution of the fractional ranks with simultaneous confidence bands for uniformity."}
+![](assets/pit-ecdf-paper.png){width=90% fig-align="center" fig-alt="Grid of six images. The first four show histograms of fractional ranks with per bin independent confidence bands for uniformity, and the two last show the empirical cumulative distribution of the fractional ranks with simultaneous confidence bands for uniformity."}
 
 <a href="https://link.springer.com/article/10.1007/s11222-022-10090-6" target="_blank">Paper (Statistics and Computing)</a> | <a href="https://github.com/TeemuSailynoja/simultaneous-confidence-bands" target="_blank">Code</a><br>
 
@@ -31,7 +31,7 @@ The multiple sample comparison test is useful, for example, as a complementary d
 
 ## Posterior SBC: simulation-based calibration checking conditional on data
 
-![](../assets/posterior-sbc-paper.png){width=90% fig-align="center" fig-alt="Grid of four graphs, each showing a graphical calibration assessment for a given quantity. The assessment uses simultaneous confidence bands for the empirical cumulative distribution of the probability integral transformed values of the quantity to estimate, wether the quantity is uniformly distributed."}
+![](assets/posterior-sbc-paper.png){width=90% fig-align="center" fig-alt="Grid of four graphs, each showing a graphical calibration assessment for a given quantity. The assessment uses simultaneous confidence bands for the empirical cumulative distribution of the probability integral transformed values of the quantity to estimate, wether the quantity is uniformly distributed."}
 
 <a href="https://arxiv.org/abs/2502.03279" target="_blank">Preprint (arXiv)</a> | <a href="https://github.com/TeemuSailynoja/posterior-sbc" target="_blank">Code</a><br>
 
