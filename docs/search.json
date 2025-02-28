@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "publications.html#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison",
-    "href": "publications.html#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison",
+    "objectID": "publications.html#recommendations-for-visual-predictive-checks-in-bayesian-workflow",
+    "href": "publications.html#recommendations-for-visual-predictive-checks-in-bayesian-workflow",
     "title": "Teemu Säilynoja",
-    "section": "Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison",
-    "text": "Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison\n\n\n\n\n\nPaper (Statistics and Computing) | Code\n\nAssessing the goodness-of-fit to a given distribution is important in computational statistics. Using the probability integral transformation (PIT), we answer this question through uniformity testing.\n\nWe present new simulation- and optimization-based methods for obtaining simultaneous confidence bands for the whole empirical cumulative distribution function (ECDF) of the PIT values under the assumption of uniformity.\nWe further extend the methods to determine simultaneous confidence bands for testing whether multiple samples come from the same underlying distribution.\n\nThese methods can also be applied when the reference distribution is represented by a finite sample, which is useful, for example, for simulation-based calibration (SBC). The multiple sample comparison test is useful, for example, as a complementary diagnostic in multi-chain Markov chain Monte Carlo convergence diagnostics."
+    "section": "Recommendations for visual predictive checks in Bayesian workflow",
+    "text": "Recommendations for visual predictive checks in Bayesian workflow\n\n\n\n\n\nPreprint (JoVI) | Code\n\nA key step in the Bayesian workflow for model building is the graphical assessment of model predictions. The goal of these assessments is to identify whether the model is a reasonable representation of the domain knowledge and observed data. Many commonly used visual predictive checks can be misleading if their implicit assumptions are not met, and there is a need for more guidance for selecting, interpreting, and diagnosing appropriate visualizations.\n\\(\\quad\\) We offer recommendations and diagnostic tools to mitigate ad-hoc decision-making in visual predictive checks. These contributions aim to improve the robustness and interpretability of Bayesian model criticism practices."
   },
   {
     "objectID": "publications.html#posterior-sbc-simulation-based-calibration-checking-conditional-on-data",
@@ -12,6 +12,13 @@
     "title": "Teemu Säilynoja",
     "section": "Posterior SBC: simulation-based calibration checking conditional on data",
     "text": "Posterior SBC: simulation-based calibration checking conditional on data\n\n\n\n\n\nPreprint (arXiv) | Code\n\nSimulation-based calibration checking (SBC) is the process of testing whether an inference algorithm and model implementation works for data generated with parameter values plausible under the chosen priors. This approach is natural and desirable for testing if the inference works for a wide range of plausible datasets.\n\\(\\quad\\) However, after observing data, we are interested in knowing if the inference works for that particular dataset. In this paper, we propose posterior SBC a version of SBC that can used to validate the inference conditionally on observed data.\n\\(\\quad\\) We illustrate the utility of posterior SBC in three case studies: (1) A simple multilevel model; (2) a model that is governed by differential equations; and (3) a joint integrative neuroscience model which is approximated via amortized Bayesian inference with neural networks."
+  },
+  {
+    "objectID": "publications.html#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison",
+    "href": "publications.html#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison",
+    "title": "Teemu Säilynoja",
+    "section": "Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison",
+    "text": "Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison\n\n\n\n\n\nPaper (Statistics and Computing) | Code\n\nAssessing the goodness-of-fit to a given distribution is important in computational statistics. Using the probability integral transformation (PIT), we answer this question through uniformity testing.\n\nWe present new simulation- and optimization-based methods for obtaining simultaneous confidence bands for the whole empirical cumulative distribution function (ECDF) of the PIT values under the assumption of uniformity.\nWe further extend the methods to determine simultaneous confidence bands for testing whether multiple samples come from the same underlying distribution.\n\nThese methods can also be applied when the reference distribution is represented by a finite sample, which is useful, for example, for simulation-based calibration (SBC). The multiple sample comparison test is useful, for example, as a complementary diagnostic in multi-chain Markov chain Monte Carlo convergence diagnostics."
   },
   {
     "objectID": "index.html",

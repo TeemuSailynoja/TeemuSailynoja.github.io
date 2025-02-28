@@ -161,8 +161,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison" id="toc-graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison" class="nav-link active" data-scroll-target="#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison">Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison</a></li>
+  <li><a href="#recommendations-for-visual-predictive-checks-in-bayesian-workflow" id="toc-recommendations-for-visual-predictive-checks-in-bayesian-workflow" class="nav-link active" data-scroll-target="#recommendations-for-visual-predictive-checks-in-bayesian-workflow">Recommendations for visual predictive checks in Bayesian workflow</a></li>
   <li><a href="#posterior-sbc-simulation-based-calibration-checking-conditional-on-data" id="toc-posterior-sbc-simulation-based-calibration-checking-conditional-on-data" class="nav-link" data-scroll-target="#posterior-sbc-simulation-based-calibration-checking-conditional-on-data">Posterior SBC: simulation-based calibration checking conditional on data</a></li>
+  <li><a href="#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison" id="toc-graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison" class="nav-link" data-scroll-target="#graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison">Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison</a></li>
   </ul>
 </nav>
     </div>
@@ -179,6 +180,33 @@ window.Quarto = {
 }
 </style>
 </div>
+<section id="recommendations-for-visual-predictive-checks-in-bayesian-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="recommendations-for-visual-predictive-checks-in-bayesian-workflow">Recommendations for visual predictive checks in Bayesian workflow</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/predictive-checking.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%" alt="Two plots showing a comparison between predicted probabilities on the horizontal axis and observed event rates on the vertical axis. In the first plot, the data is divided to ten bins based on hte predicted probability, and 90% binomial confidence intervals are shown for the observed event rates. In the second plot, instead of binning, continuous estimates of hte event rates are shown."></p>
+</figure>
+</div>
+<p><a href="https://teemusailynoja.github.io/visual-predictive-checking/" target="_blank">Preprint (JoVI)</a> | <a href="https://github.com/TeemuSailynoja/visual-predictive-checking" target="_blank">Code</a><br></p>
+<div class="justify">
+<p>A key step in the Bayesian workflow for model building is the graphical assessment of model predictions. The goal of these assessments is to identify whether the model is a reasonable representation of the domain knowledge and observed data. Many commonly used visual predictive checks can be misleading if their implicit assumptions are not met, and there is a need for more guidance for selecting, interpreting, and diagnosing appropriate visualizations.<br>
+<span class="math inline">\(\quad\)</span> We offer recommendations and diagnostic tools to mitigate ad-hoc decision-making in visual predictive checks. These contributions aim to improve the robustness and interpretability of Bayesian model criticism practices.</p>
+</div>
+</section>
+<section id="posterior-sbc-simulation-based-calibration-checking-conditional-on-data" class="level2">
+<h2 class="anchored" data-anchor-id="posterior-sbc-simulation-based-calibration-checking-conditional-on-data">Posterior SBC: simulation-based calibration checking conditional on data</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/posterior-sbc-paper.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%" alt="Grid of four graphs, each showing a graphical calibration assessment for a given quantity. The assessment uses simultaneous confidence bands for the empirical cumulative distribution of the probability integral transformed values of the quantity to estimate, wether the quantity is uniformly distributed."></p>
+</figure>
+</div>
+<p><a href="https://arxiv.org/abs/2502.03279" target="_blank">Preprint (arXiv)</a> | <a href="https://github.com/TeemuSailynoja/posterior-sbc" target="_blank">Code</a><br></p>
+<div class="justify">
+<p>Simulation-based calibration checking (SBC) is the process of testing whether an inference algorithm and model implementation works for data generated with parameter values plausible under the chosen priors. This approach is natural and desirable for testing if the inference works for a wide range of plausible datasets.<br>
+<span class="math inline">\(\quad\)</span> However, after observing data, we are interested in knowing if the inference works for that particular dataset. In this paper, we propose posterior SBC a version of SBC that can used to validate the inference conditionally on observed data.<br>
+<span class="math inline">\(\quad\)</span> We illustrate the utility of posterior SBC in three case studies: (1) A simple multilevel model; (2) a model that is governed by differential equations; and (3) a joint integrative neuroscience model which is approximated via amortized Bayesian inference with neural networks.</p>
+</div>
+</section>
 <section id="graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison" class="level2">
 <h2 class="anchored" data-anchor-id="graphical-test-for-discrete-uniformity-and-its-applications-in-goodness-of-fit-evaluation-and-multiple-sample-comparison">Graphical test for discrete uniformity and its applications in goodness-of-fit evaluation and multiple sample comparison</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -195,21 +223,6 @@ window.Quarto = {
 </ul>
 <p>These methods can also be applied when the reference distribution is represented by a finite sample, which is useful, for example, for simulation-based calibration (SBC). The multiple sample comparison test is useful, for example, as a complementary diagnostic in multi-chain Markov chain Monte Carlo convergence diagnostics.</p>
 </div>
-</section>
-<section id="posterior-sbc-simulation-based-calibration-checking-conditional-on-data" class="level2">
-<h2 class="anchored" data-anchor-id="posterior-sbc-simulation-based-calibration-checking-conditional-on-data">Posterior SBC: simulation-based calibration checking conditional on data</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/posterior-sbc-paper.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%" alt="Grid of four graphs, each showing a graphical calibration assessment for a given quantity. The assessment uses simultaneous confidence bands for the empirical cumulative distribution of the probability integral transformed values of the quantity to estimate, wether the quantity is uniformly distributed."></p>
-</figure>
-</div>
-<p><a href="https://arxiv.org/abs/2502.03279" target="_blank">Preprint (arXiv)</a> | <a href="https://github.com/TeemuSailynoja/posterior-sbc" target="_blank">Code</a><br></p>
-<div class="justify">
-<p>Simulation-based calibration checking (SBC) is the process of testing whether an inference algorithm and model implementation works for data generated with parameter values plausible under the chosen priors. This approach is natural and desirable for testing if the inference works for a wide range of plausible datasets.<br>
-<span class="math inline">\(\quad\)</span> However, after observing data, we are interested in knowing if the inference works for that particular dataset. In this paper, we propose posterior SBC a version of SBC that can used to validate the inference conditionally on observed data.<br>
-<span class="math inline">\(\quad\)</span> We illustrate the utility of posterior SBC in three case studies: (1) A simple multilevel model; (2) a model that is governed by differential equations; and (3) a joint integrative neuroscience model which is approximated via amortized Bayesian inference with neural networks.</p>
-</div>
-<hr>
 
 
 </section>
