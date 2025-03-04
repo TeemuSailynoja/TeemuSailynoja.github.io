@@ -17,7 +17,7 @@ engine: knitr
 ![](assets/predictive-checking.png){width=90% fig-align="center" fig-alt="Two plots showing a comparison between predicted probabilities on the horizontal axis and observed event rates on the vertical axis. In the first plot, the data is divided to ten bins based on hte predicted probability, and 90% binomial confidence intervals are shown for the observed event rates. In the second plot, instead of binning, continuous estimates of hte event rates are shown."}
 
 
-<a href="https://teemusailynoja.github.io/visual-predictive-checking/" target="_blank">Preprint (JoVI)</a> | <a href="https://github.com/TeemuSailynoja/visual-predictive-checking" target="_blank">Code</a><br>
+<a href="https://teemusailynoja.github.io/visual-predictive-checks/" target="_blank">Online preprint</a> | <a href="https://github.com/TeemuSailynoja/visual-predictive-checking" target="_blank">Code</a> | <a href="https://arxiv.org/abs/2503.01509" target="_blank">Preprint (arXiv)</a><br>
 
 ::: {.justify}
 A key step in the Bayesian workflow for model building is the graphical assessment of model predictions. The goal of these assessments is to identify whether the model is a reasonable representation of the domain knowledge and observed data. Many commonly used visual predictive checks can be misleading if their implicit assumptions are not met, and there is a need for more guidance for selecting, interpreting, and diagnosing appropriate visualizations.\
